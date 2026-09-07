@@ -14,14 +14,14 @@
         <p class="header__title">Lingua School</p>
         <nav class="header__menu">
             <ul class="header__links-list">
-                <li class="header__link">
-                    <a href="#">О школе</a>
+                <li>
+                    <a href="#" class="header__link">О школе</a>
                 </li>
-                <li class="header__link">
-                    <a href="#">Курсы</a>
+                <li>
+                    <a href="#" class="header__link">Курсы</a>
                 </li>
-                <li class="header__link">
-                    <a href="#">Преподаватели</a>
+                <li>
+                    <a href="#" class="header__link">Преподаватели</a>
                 </li>
             </ul>
         </nav>
@@ -29,8 +29,8 @@
     
         <section class="main">
             <div class="description">
-                <h1>Открой мир через иностранные языки</h1>
-                <p>Изучайте английский, испанский, немецкий и другие языки с удовольствием. Практические занятия, опытные преподаватели и программа, адаптированная под ваш уровень.</p>
+                <h1 class="main__title">Открой мир через иностранные языки</h1>
+                <p class="main__paragraph">Изучайте английский, испанский, немецкий и другие языки с удовольствием. Практические занятия, опытные преподаватели и программа, адаптированная под ваш уровень.</p>
                 <button class="main__button">Записаться на пробный урок</button>
             </div>
             <div class="main__photo">
@@ -41,22 +41,22 @@
             <h2 class="cards__title">Почему выбирают Lingua School</h2>
             <ul class="cards__list">
                 <li class="card__item">
-                    <img src="/images/individual.jpg" alt="Группа студентов">
+                    <img src="/images/individual.jpg" alt="Группа студентов" class="card__item-img">
                     <h3 class="card__item-title">Индивидуальный подход</h3>
                     <p class="card__item-text">Программа обучения под ваш уровень, цели и темп.</p>
                 </li>
                 <li class="card__item">
-                    <img src="/images/speaking.jpg" alt="Общение студентов">
+                    <img src="/images/speaking.jpg" alt="Общение студентов" class="card__item-img">
                     <h3 class="card__item-title">Разговорная практика</h3>
                     <p class="card__item-text">Учимся говорить с первых занятий и уверенно применять язык в жизни.</p>
                 </li>
                 <li class="card__item">
-                    <img src="/images/teacher.jpg" alt="Учитель ведет занятие">
+                    <img src="/images/teacher.jpg" alt="Учитель ведет занятие" class="card__item-img">
                     <h3 class="card__item-title">Опытные преподаватели</h3>
                     <p class="card__item-text">Занятия проводят профессиональные преподаватели, которые умеют интересно объяснять сложное.</p>
                 </li>
-                <li class="cards__item">
-                    <img src="/images/online-learning.webp" alt="Студент на онлайн занятии">
+                <li class="card__item">
+                    <img src="/images/online-learning.webp" alt="Студент на онлайн занятии" class="card__item-img">
                     <h3 class="cards__item-title">Удобный формат</h3>
                     <p class="cards__item-text">Онлайн и офлайн-занятия, индивидуально или в небольших группах.</p>
                 </li>
@@ -69,8 +69,10 @@
         </section>
 
         <section class="call__to-action">
-            <h3 class="call__title">Готовы заговорить на новом языке?</h3>
-            <p class="call__text">Запишитесь на пробный урок и узнайте свой уровень. Подберём подходящий курс и составим план обучения.</p>
+            <div class="call__text">
+                <h3 class="call__title">Готовы заговорить на новом языке?</h3>
+                 <p class="call__description">Запишитесь на пробный урок и узнайте свой уровень. Подберём подходящий курс и составим план обучения.</p>
+            </div>
             <button class="call__button">Записаться</button>
         </section>
 
